@@ -59,3 +59,11 @@ header{
 
 /* --------------- general ---------------- */
 
+.general{
+	background: #CCC;
+	height: 300px;
+}
+.general div{
+	max-width: 1000px;
+	margin: 0 auto;
+}
