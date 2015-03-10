@@ -2,6 +2,10 @@
 	margin: 0;
 	padding: 0;
 }
+a{
+	text-decoration: none;
+	color: #3F8DB1;
+}
 
 /* -------------- header -------------- */
 
@@ -49,7 +53,7 @@ header{
 }
 
 .principal div{
-	max-width: 1000px;
+	max-width: 900px;
 	margin: 0 auto;
 	color: #fff;
 	padding-top: 300px; 
@@ -63,7 +67,67 @@ header{
 	background: #CCC;
 	height: 300px;
 }
-.general div{
-	max-width: 1000px;
+
+.general .info{
+	max-width: 900px;
 	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	height: 125px; 
 }
+
+.general .info p{
+	width: 630px;
+	float: left;
+}
+
+.general .info a{
+	background: #3F8DB1;
+	color: #fff;
+	text-decoration: none;
+	padding: 15px 25px;
+	margin: 15px 25px;
+	display: inline-block;
+}
+
+.general .servicios{
+	margin: 0 auto;
+	max-width: 900px;
+	background: #E1E1E1;
+	height: 75px;
+	line-height: 75px;
+	float: left;
+	margin: 0 254px;
+}
+
+.general .servicios a{
+	text-decoration: none;
+	background: #3F8DB1;
+	color: #fff;
+	padding: 15px 25px;
+	border-radius: 30px;
+	margin: 0 50px;
+}
+
+/* --------------- location ---------------- */
+
+.location{
+	max-width: 900px;
+	margin: 50px auto;
+	text-align: center;
+	height: 280px;
+	border-bottom: 1px solid #CBCBCB;
+}
+
+.imagenes{
+	margin: 20px 0;
+}
+
+.imagenes img{
+	height: 100px;
+	width: 120px;
+	margin: 0 10px;
+}
+
+/*------------------ news -------------------*/
+
